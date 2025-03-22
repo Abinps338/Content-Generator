@@ -6,17 +6,26 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
     "@clerk/nextjs": "^6.9.11",
+    "@google/generative-ai": "^0.24.0",
+    "@neondatabase/serverless": "^0.10.4",
     "@radix-ui/react-slot": "^1.1.1",
+    "@toast-ui/react-editor": "^3.2.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.40.1",
     "lucide-react": "^0.471.2",
+    "moment": "^2.30.1",
     "next": "15.1.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "shadcn-ui": "^0.9.5",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7"
   },
@@ -24,8 +33,10 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "drizzle-kit": "^0.30.5",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
+    "tsx": "^4.19.3",
     "typescript": "^5"
   }
 }
